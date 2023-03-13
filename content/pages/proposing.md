@@ -12,6 +12,6 @@ The TPFs and LCs are provided for a subset of targets, have a shorter cadence, h
 
 TESS data is public, and provides all-sky, space-based, long-duration (28+ days) precision photometry for tens of millions of sources. TESS enables studies of exoplanet systems, single and multiple stars, supernovae, galaxies, Solar System objects.  There are no reserved targets, no restricted science areas, and no proprietary period. All data is made available through MAST immediately after data processing and validation is complete.
 
-Below you can find more information on the TESS General Investigator (GI) Program, how to propose for TESS data and research funding. You can use arrows to scroll down through a section, or scroll right/left for a different section.
+Below you can find more information on the TESS General Investigator (GI) Program, how to propose for TESS data and research funding. [You can use arrows to scroll down through a section, or scroll right/left for a different section.]
 
 {! slides/proposing.slides.html !}
