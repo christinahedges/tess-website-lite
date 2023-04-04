@@ -12,7 +12,7 @@ Below you can find more information on the TESS General Investigator (GI) Progra
 
 [To navigate through the slides, you can use up/down arrows to scroll up/down through a section, or right/left arrows for a different section. To jump to the first/last slide use Shift+left/right arrow; to jump to the top/bottom of a slide use Shift+up/down arrow. The slide number is shown in the lower right corner of the slide. <u>For more presentation shortcuts press the question-mark key ("?") on the keyboard.</u>]
 
-<!--ADD fragments to the the different slides to make sure when you flip between slides it goes back to the top of the section!!-->
-<!-- https://rise.readthedocs.io/en/stable/ for Jupyter notebook slides!-->
+<!-- https://rise.readthedocs.io/en/stable/ for Jupyter notebook slides-->
+<!-- https://revealjs.com/config/ for reveal configs-->
 
 {! slides/proposing.slides.html !}
