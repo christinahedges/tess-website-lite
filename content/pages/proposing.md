@@ -10,7 +10,7 @@ TESS enables studies of exoplanet systems, single and multiple stars, supernovae
 
 Below you can find more information on the TESS General Investigator (GI) Program and how to propose for TESS data and research funding. The information is presented as a slideshow separated into sections for <a href="#/sec1"> <b>Proposing Basics</b></a>, <a href="#/sec2"><b>Proposal Types</b></a>, <a href="#/sec3"><b>How to select targets</b></a>, <a href="#/sec4"><b>How to write a proposal</b></a>, <a href="#/sec5"><b>Submitting a proposal</b></a>, <a href="#/sec6"><b>How the proposal will be evaluated</b></a>, and <a href="#/sec7"><b>Additional Resources</b></a>.
 
-[<i>To navigate through the slides, you can use up/down arrows to scroll up/down through a section, or right/left arrows for a different section. To jump to the first/last slide use Shift+left/right arrow; to jump to the top/bottom of a slide use Shift+up/down arrow. The slide number is shown in the lower right corner of the slide. <u>For more presentation shortcuts press the question-mark key ("?") on the keyboard.</u></i>]
+<i>To navigate through the slides, you can use up/down arrows to scroll up/down through a section, or right/left arrows for a different section. To jump to the first/last slide use Shift+left/right arrow; to jump to the top/bottom of a slide use Shift+up/down arrow. The slide number is shown in the lower right corner of the slide. <u>For more presentation shortcuts press the question-mark key ("?") on the keyboard.</u></i>
 
 <!-- https://rise.readthedocs.io/en/stable/ for Jupyter notebook slides-->
 <!-- https://revealjs.com/config/ for reveal configs-->
