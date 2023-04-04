@@ -8,6 +8,11 @@ TESS provides users with three different kinds of data products: <a href="https:
 
 TESS enables studies of exoplanet systems, single and multiple stars, supernovae, galaxies, and Solar System objects.  There are no reserved targets, no restricted science areas, and no proprietary period. All data is made available through MAST immediately after data processing and validation is complete.
 
-Below you can find more information on the TESS General Investigator (GI) Program and how to propose for TESS data and research funding. The information is presented as a slideshow separated into sections for Proposing Basics, Proposal Types, Selecting your TESS targets, Writing your proposal, Submitting your proposal, Proposal evaluation, and Additional Resources. [You can use keyboard arrows to scroll down through a section, or scroll right/left for a different section.]
+Below you can find more information on the TESS General Investigator (GI) Program and how to propose for TESS data and research funding. The information is presented as a slideshow separated into several sections. 
+
+[To navigate through the slides, you can use up/down arrows to scroll up/down through a section, or right/left arrows for a different section. To jump to the first/last slide use Shift+left/right arrow; to jump to the top/bottom of a slide use Shift+up/down arrow. The slide number is shown in the lower right corner of the slide. <u>For more presentation shortcuts press the question-mark key ("?") on the keyboard.</u>]
+
+<!--ADD fragments to the the different slides to make sure when you flip between slides it goes back to the top of the section!!-->
+<!-- https://rise.readthedocs.io/en/stable/ for Jupyter notebook slides!-->
 
 {! slides/proposing.slides.html !}
