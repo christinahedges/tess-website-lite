@@ -1,0 +1,154 @@
+<div class="reveal" style="width:100%;height:100vh;"> 
+    <div class="slides">
+        <section>
+            Photometric performance and Technical Details
+            <section>
+                <!--<h2 class="r-fit-text"></h2>-->
+                <p style="font-size:0.7em;"> <i>Typical noise levels</i></p>
+                <ul>
+                    <li style="font-size:0.68em;">The figure below shows the 1-hour Combined Differential Photometric Precision (CDPP) from TESS Sector 1.</li>
+                    <li style="font-size:0.68em;">The red points are the RMS CDPP measurements for the 15,889 light curves from Sector 1 plotted as a function of TESS magnitude.</li>
+                    <li style="font-size:0.68em;">The blue x's are the uncertainties, scaled to a 1-hour timescale.</li>
+                    <li style="font-size:0.68em;">The purple curve is a moving 10th percentile of the RMS CDPP measurements, and the gold curve is a moving median of the 1-hour uncertainties.</li>
+                    <li style="font-size:0.68em;">The photometric uncertainties are dominated by pointing jitter, but the best light curves are well below the mission requirements of (1) a systematic error floor at 60 ppm and (2) an achieved CDPP at 10th magnitude of 230 ppm, which is sufficient to detect super-Earths around bright stars.</li>
+                    <li style="font-size:0.68em;">For fainter stars around Tmag = 16, the photometric precision drops to about 1%, which is still sufficient for many astrophysical studies such as supernovae and stellar variability.</li>
+                    <li style="font-size:0.68em;">The typical noise achieved in each individual TESS sector is described in the Data Release Notes for each sector.</li>                
+                </ul>
+            </section>
+
+
+            <section>
+                <p style="font-size:0.7em;"> <i>Typical noise levels</i></p>
+                <img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/data/tess_tpf.png" width="700px"></img>
+            </section>
+            
+
+
+            <section>
+                <p style="font-size:0.7em;"> <i>Saturation</i></p>
+                <ul>
+                    <li style="font-size:0.68em;">The amount of charge deposited by a star of magnitude Tmag into the peak pixel depends on the fraction of the total charge in the peak pixel: this value generally ranges from 0.2 to 0.4 in the TESS images. The TESS cameras create 15,000 e−/s for a star of Tmag = 10: thus, a star of Tmag = 5 will create 3 × 106 electrons in a two-second exposure. </li>
+                    <li style="font-size:0.68em;">For a flux fraction of 0.3, the charge in the peak pixel is 9 × 105 e−, leading to a bloom length of 5 rows; similarly, a star of Tmag = 2.5 will create a bloom of 50 rows. A key feature of the CCID-80 CCDs used on TESS is their ability to conserve charge even from very saturated stars. </li>
+                    <li style="font-size:0.68em;">Saturation is anticipated in the central pixel at IC = 7.5. This, however, does not represent the bright limit for precise photometry.</li>
+                    <li style="font-size:0.68em;">Excess charge from saturated pixels is conserved and spread across adjacent pixels in a CCD column until the excess reaches a CCD boundary.</li>
+                    <li style="font-size:0.68em;">This leads to "bleed trails" extending above and below a saturated pixel, similar to what is seen for bright stars in Kepler/K2 photometry. Precision photometry can still be achieved by creating a photometric aperture that is large enough to encompass all excess charge.</li>                   
+                    <li style="font-size:0.68em;">The TESS bright limit is anticipated to be IC=4.</li>
+                </ul>
+            </section>
+
+            <section>
+                <p style="font-size:0.7em;"> <i>Point Spread Function</i></p>
+                <ul>
+                    <li style="font-size:0.68em;">The TESS PSF varies significantly across the focal plane due primarily to the optics.</li>
+                    <li style="font-size:0.68em;">Instead of a PSF, TESS has a pixel response function (PRF), which represents the observed appearance of the point sources.</li>
+                    <li style="font-size:0.68em;">The TESS PRF was created by the SPOC by fitting to micro-dithered data taken during PRF commissioning exercises. PRF models for sectors 1-3 can be found here, with sector 4 onwards here.</li>
+                    <li style="font-size:0.68em;">Additional resources for the TESS PRF can be found on MAST.</li>
+                    <li style="font-size:0.68em;">Physical WCS solutions can be used to convert the PRF image coordinates into the corresponding TESS CCD's. For more information about the TESS PRF see page 49 of the instrument handbook.</li>
+                    <li style="font-size:0.68em;">Given the unusual nature of the TESS PRF, photometry of an object is typically obtained through the summation of all pixels within a given region. This region is referred to as an "aperture mask" and can be determined through the pipeline or can be selected by the user, unlike typical apertures, TESS apertures are not circular.</li>
+                </ul>
+            </section>
+
+            <section>
+                <p style="font-size:0.7em;"> <i>Crowding</i></p>
+                <ul>
+                    <li style="font-size:0.68em;">Because the TESS pixels are large (21 arcsec), the TESS photometry for many targets will be contaminated by nearby objects. One of the goals of the TIC is to provide the information needed to estimate the contamination in the TESS band. </li>
+                    <li style="font-size:0.68em;">This cannot be determined accurately ahead of time because it will depend on the pixels selected for the aperture photometry of each target and the exact position of the target in the aperture.</li>
+                    <li style="font-size:0.68em;">However, it is possible for the TIC to provide some guidance concerning the level of expected contamination, for example by providing the number of known objects and their total brightness in the TESS band for some suitable standard aperture and photometer Pixel Response Function (PRF)</li>
+                    <li style="font-size:0.68em;"></li>
+                </ul>
+            </section>
+
+
+
+            <section>
+                Pointing jitter
+            </section>
+
+            <section>
+                Scattered light
+            </section>
+
+            <section>
+                Cosmic rays
+            </section>
+
+            <section>
+                Pointing jitter
+            </section>
+
+        </section>
+
+        <section>
+            <body>
+
+                <h2>Approved Programs Table</h2>
+                
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+                
+                <table id="myTable">
+                  <tr class="header">
+                    <th style="width:10;">Program</th>
+                    <th style="width:20%;">PI</th>
+                    <th style="width:40%;">Title</th>
+                    <th style="width:30%;">Type</th>
+                  </tr>
+
+                  <tr>
+                    <td>GO6111</td>
+                    <td>Collins</td>
+                    <td> <a href= "https://heasarc.gsfc.nasa.gov/docs/tess/data/approved-programs/cycle6/GO6111.txt" target="_blank">THE CONFIRMATION AND CHARACTERIZATION OF SMALL TESS PLANETS</a></td>
+                    <td>Key Project</td>
+                  </tr>
+
+                  <tr>
+                    <td>GO6104</td>
+                    <td>Rice</td>
+                    <td>EXPANDING OUTER SOLAR SYSTEM SCIENCE WITH TESS</td>
+                    <td>Small</td>
+                  </tr>
+
+                  <tr>
+                    <td>GO6165</td>
+                    <td>Turner</td>
+                    <td>SEARCHING FOR TRANSIT TIMING VARIATIONS WITH TESS</td>
+                    <td>Large</td>
+                  </tr>
+
+                </table>
+                
+                <script>
+                function myFunction() {
+                  var input, filter, table, tr, td, i, txtValue;
+                  input = document.getElementById("myInput");
+                  filter = input.value.toUpperCase();
+                  table = document.getElementById("myTable");
+                  tr = table.getElementsByTagName("tr");
+                  for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[1];
+                    if (td) {
+                      txtValue = td.textContent || td.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                      } else {
+                        tr[i].style.display = "none";
+                      }
+                    }       
+                  }
+                }
+                </script>
+                
+                </body>
+
+        </section>
+
+ 
+
+        <section>
+            <h2>If in doubt, reach out to TESS GI Helpdesk</h2>
+            <br>
+            The TESS GI helpdesk are happy to help answer any questions, reach out on email at
+            <a href="mailto:tesshelp@bigbang.gsfc.nasa.gov"><code>tesshelp@bigbang.gsfc.nasa.gov</code></a>.
+        </section>
+
+    </div>
+</div>
