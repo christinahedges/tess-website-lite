@@ -1,4 +1,4 @@
-Title: Citizen Science TEST
+Title: Citizen Science
 template: slide
 save_as: citizen_science.html
 

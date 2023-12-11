@@ -89,8 +89,7 @@ Each of these is created on-board the spacecraft by co-adding the individual 2-s
     The FFIs have observational cadence of 30 minutes (Cycles 1 and 2), 10 minutes (Cycles 3 and 4), and 200 seconds (Cycles 5 and 6).
     </br>
     <br>
-    An example FFI is shown in the figure below for TIC ZZZ. To learn more about FFIs and how to use them please see <a href = "https://github.com/spacetelescope/notebooks/blob/master/notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" target = "_blank">this tutorial </a>
-    <img src="images/data/tess_tpf.png" class="center"></img>
+  To learn more about FFIs and how to use them please see <a href = "https://github.com/spacetelescope/notebooks/blob/master/notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" target = "_blank">this tutorial </a>
 </div>
 
 <button type="button" class="collapsible">Engineering Data</button>

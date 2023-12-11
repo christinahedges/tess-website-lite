@@ -2,7 +2,7 @@ Title: Lightkurve Tutorials
 template: slide
 save_as: tutorial1.html
 
-Below we list tutorials that will help first time users get to grips with using python, Lightkurve, and understanding TESS data products. Please note that these tutorials are written for Lightkurve vZZZZZ.
+Below we list tutorials that will help first time users get to grips with using python, Lightkurve, and understanding TESS data products. Please note that these tutorials are written for Lightkurve v2.4.
 
 ###
 <table class="table table-striped table-hover" style="max-width:55em;">
