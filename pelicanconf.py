@@ -64,40 +64,40 @@ RELATEDSITES = (
 
 MENUITEMS = (
           ('Education Resources', (
-            ('What is TESS?', 'christina.html'),
-            ('TESS statistics','statistics.html'),
-            ('Outreach Materials', 'christina.html'),
-            ('Citizen Science', 'christina.html'),
-            ('FAQ', 'christina.html'),
+            ('What is TESS?', 'summary.html'),
+            ('Outreach Materials', 'outreach.html'),
+            ('Citizen Science', 'citizen_science.html'),
+            ('Frequently Asked Questions', 'faq.html'),
                     )
         ),
 
         ('Science Resources', (
             ('TESS Statistics', 'statistics.html'),
-            ('TESS Instrument Information', 'christina.html'),
-            ('TESS Data Product Information', 'data-products.html'),
-            ('TESS Sector Information', 'christina.html'),
-            ('TESS Community', 'christina.html'),
-            ('Data Release Notes', 'christina.html'),
-            ('Documentation Library', 'christina.html'),
+            ('TESS Telescope Information', 'telescope_information.html'),
+            ('TESS Sector Information', 'sector.html'),
+            ('TESS Data Pipeline Information', 'data_pipeline.html'),
+            ('TESS Data Product Information', 'data_products.html'),
+            ('TESS Users Committee', 'tuc.html'),
+            ('Data Release Notes', 'drn.html'),
+            ('Documentation Library', 'documentation.html'),
              )
         ),
         ('Propose for Observations', (
             ('Proposing Basics', 'proposing.html'),
-            ('Propose for Upcoming Cycle 6', 'christina.html'),
+            ('Propose for Upcoming Cycle 7', 'new_proposing.html'),
             ('Approved Programs', 'approved-programs.html'),
                     )
         ),
         ('Tools', (
-            ('Find TESS Targets with WTV', 'christina.html'),
-            ('Prepare a TESS Proposal with TPT', 'christina.html'),
-            ('Work with TESS Data online with TiKE', 'christina.html'),
+            ('TESS Data Analysis and Community Tools', 'community.html'),
+            ('Prepare a TESS Proposal with TPT', 'new_proposing.html'),
+            ('Work with TESS Data online with TiKE', 'new_proposing.html'),
                     )
         ),
         ('Tutorials', (
-            ('Tutorial 1', 'christina.html'),
-            ('Tutorial 2', 'christina.html'),
-            ('Tutorial 3', 'christina.html'),
+            ('Tutorial 1', 'tutorial1.html'),
+            ('Tutorial 2', 'tutorial2.html'),
+            ('Tutorial 3', 'new_proposing.html'),
                     )
         ),
         # For press

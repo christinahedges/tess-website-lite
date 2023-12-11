@@ -1,0 +1,56 @@
+Title: Citizen Science TEST
+template: slide
+save_as: citizen_science.html
+
+Citizen science projects are collaborations between scientists and members of the public. In these collaborations volunteers, referred to as citizen scientists, have helped thousands of important scientific discoveries. You can find more information about NASA citizen science projects <a href = "https://science.nasa.gov/citizen-science/" target = "_blank"> here </a>. 
+
+Do you want to discover and analyze your own exoplanets using TESS data? Or perhaps observed alreadly discovered planets using ground-based telescope? If so, you can try the following citizen science projects. 
+
+<section>
+  <h2> <a href="https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess" target="_blank">Planet Hunters TESS (PHT)</a> </h2>
+  <table>
+    <tr>
+      <th colspan="2" style="font-size: 28px;"></th>
+    </tr>
+    <tr>
+      <td width="70%">
+        Scientists have developed extremely efficient computer algorithms to find transiting exoplanets. However, planetary systems are highly complex, and their lightcurves are never quite the same. This, combined with the variability of the stars, can confuse the algorightms, yielding wrong results or missing planetary systems entirely. Our eyes and brains, however, are excellent at detecting patterns in noisy data that automated routines may miss! Can you spot the transit of a planet as it passes in front of its parent star in the animation on the right (credits: Oscar Barraga)?
+        <br></br>
+        PHT volunteers have already found hundreds of new planetary systems in Kepler and TESS data. Will the next planet be discovered by you? To find out more information about this project and join the hunt visit the <a href="https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess" target="_blank">Planet Hunters TESS</a> page.
+      </td>
+      <td width="70%"><img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/transit.gif"></img></td>
+    </tr>
+  </table>
+</section>
+
+<br></br>
+<br></br>
+
+<section>
+  <h2> <a href="https://www.zooniverse.org/projects/marckuchner/planet-patrol/" target="_blank">Planet Patrol</a> </h2>
+  <table>
+    <tr>
+      <th colspan="2" style="font-size: 28px;"></th>
+    </tr>
+    <tr>
+      <td width="50%">
+        TESS monitors the brightness of millions of stars in the search for planet candidates. Automated processes help scientists to select the strongest candidates, but those with weaker signals require human intervention for their detection and extraction. At Planet Patrol, you can help find transiting exoplanet systems from TESS that confuse automated algorithms. Planet Patrol’s goals are to inspect the TESS data, and weed out those planet canddiates that are contaminated by instrument and/or astrophysical artifacts. The sequence of TESS images on the right show how the detector sees a star hosting a planet during the observed transits, and the red dot shows the source of the measured loss of light. 
+        <br></br>
+        Planet Patrol volunteers have already vetted thousands of exoplanets from TESS. Will you join the effort? For more information about this project and how you can get involved you can visit the <a href="https://www.zooniverse.org/projects/marckuchner/planet-patrol/" target="_blank">Planet Patrol</a> page.
+      </td>
+      <td width="100%"><img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/transit2.gif"></img></td>
+    </tr>
+  </table>
+</section>
+
+<br></br>
+<br></br>
+
+<section>
+  <h2><a href = "https://exoplanets.nasa.gov/exoplanet-watch/about-exoplanet-watch/overview/" target="_blank">Exoplanet Watch</a></h2>
+
+  Exoplanet Watch is a citizen science project aimed at observing transiting exoplanets with small telescopes from the ground. This is important, because ground-based observations provide better constraints on the planet’s period which, in turn, allows for better mass measurements. Exoplanet Watch helps increase the efficiency of exoplanet studies by large telescopes to characterize exoplanet atmospheres by reducing uncertainty about the predicted timing of transit events. 
+  
+  Exoplanet Watch participants have studied hundreds of different exoplanets, and created thousadns of light curves. If you would like to contribute to this project, please visit the <a href = "https://exoplanets.nasa.gov/exoplanet-watch/about-exoplanet-watch/overview/" target="_blank">Exoplanet Watch</a> page.
+
+</section>
