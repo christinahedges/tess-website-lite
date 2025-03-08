@@ -1,4 +1,4 @@
-Title: Citizen Science TEST
+Title: Citizen Science
 template: slide
 save_as: citizen_science.html
 
@@ -51,6 +51,17 @@ Do you want to discover and analyze your own exoplanets using TESS data? Or perh
 
   Exoplanet Watch is a citizen science project aimed at observing transiting exoplanets with small telescopes from the ground. This is important, because ground-based observations provide better constraints on the planet’s period which, in turn, allows for better mass measurements. Exoplanet Watch helps increase the efficiency of exoplanet studies by large telescopes to characterize exoplanet atmospheres by reducing uncertainty about the predicted timing of transit events. 
   
-  Exoplanet Watch participants have studied hundreds of different exoplanets, and created thousadns of light curves. If you would like to contribute to this project, please visit the <a href = "https://exoplanets.nasa.gov/exoplanet-watch/about-exoplanet-watch/overview/" target="_blank">Exoplanet Watch</a> page.
+  Exoplanet Watch participants have studied hundreds of different exoplanets, and created thousands of light curves. If you would like to contribute to this project, please visit the <a href = "https://exoplanets.nasa.gov/exoplanet-watch/about-exoplanet-watch/overview/" target="_blank">Exoplanet Watch</a> page.
+
+</section>
+
+<section>
+  <h2><a href = "https://science.unistellar.com/exoplanets/unite/" target="_blank">UNITE: Unistellar Network Investigating TESS Exoplanets</a></h2>
+
+  UNITE is a NASA and SETI citizen science project, part of the global Unistellar network, where professional and amateur astronomers work together to observe exoplanet transits. The information provided by these observations help refine the planets' orbits. This is particularly important for planets with long orbital periods and/or long duration transits, where the existing observations can be sometimes of insufficient precision to enable accurate prediction of future transits. The volunteers can use their own telescopes to track the frequency and length of transit periods for exoplanets of their own choise.
+  
+  UNITE citizen scientists have already observed a number of interesting exoplants such as HD 80606b, HD 189733b, Kepler-167e, and supported important results that provided new insight into these faraway worlds. If you would like to contribute to this project, please visit the <a href = "https://science.unistellar.com/exoplanets/tutorial/" target="_blank">UNITE</a> page.
+
+  <td width="100%"><img src="/content/images/data/unite_example.png"></img></td>
 
 </section>

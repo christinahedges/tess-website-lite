@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Execute Python Script</title>
+</head>
+<body>
+    <button id="executeButton" type="button" class="btn btn-lg btn-secondary" data-bs-toggle="popover" data-bs-placement="bottom"
+    data-bs-title="What's TESS doing right now?"> Where is TESS now??? </button>
+
+    <script>
+        document.getElementById("executeButton").addEventListener("click", function() {
+            fetch("/execute-script", { method: "POST" })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert("TESS is looking at " + data.message);
+                    } else {
+                        alert("Error executing Python script:\n" + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                });
+        });
+    </script>
+</body>
+</html>

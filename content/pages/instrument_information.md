@@ -1,4 +1,4 @@
-Title: TESS Instrument Information TEST
+Title: TESS Instrument Information
 template: slide
 save_as: instrument_information.html
 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Selector</title>
+    <link rel="stylesheet" href="styles_vertical.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Where on the sky is TESS (by Sector)?</h1>
+        <select id="imageSelector">
+            <option value="" disabled selected>Select a sector</option>
+            <option value="tess_icrs_sector_001.png,tess_galactic_sector_001.png">Sector 1</option>
+            <option value="tess_icrs_sector_002.png,tess_galactic_sector_002.png">Sector 2</option>
+            <option value="tess_icrs_sector_003.png,tess_galactic_sector_003.png">Sector 3</option>
+            <option value="tess_icrs_sector_004.png,tess_galactic_sector_004.png">Sector 4</option>
+            <option value="tess_icrs_sector_005.png,tess_galactic_sector_005.png">Sector 5</option>
+            <option value="tess_icrs_sector_006.png,tess_galactic_sector_006.png">Sector 6</option>
+            <option value="tess_icrs_sector_007.png,tess_galactic_sector_007.png">Sector 7</option>
+            <option value="tess_icrs_sector_008.png,tess_galactic_sector_008.png">Sector 8</option>
+            <option value="tess_icrs_sector_009.png,tess_galactic_sector_009.png">Sector 9</option>
+        </select>
+        <div id="imageDisplay">
+            <img id="selectedImage1" src="" alt="Selected Image 1" style="display:none;">
+            <img id="selectedImage2" src="" alt="Selected Image 2" style="display:none;">
+        </div>
+    </div>
+    <script src="script_2panel.js"></script>
+</body>
+</html>

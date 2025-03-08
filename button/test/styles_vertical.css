@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px; /* Add some padding to the body for better spacing */
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Set a maximum width for the container */
+    width: 100%; /* Ensure the container takes up the full width available */
+    box-sizing: border-box;
+}
+
+#imageDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#selectedImage1, #selectedImage2 {
+    max-width: 100%; /* Ensure images do not overflow the container */
+    max-height: 400px; /* Set a maximum height for the images */
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain; /* Ensure the image fits within the defined size */
+}

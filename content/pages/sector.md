@@ -1,4 +1,4 @@
-Title: Observing dates TEST
+Title: Observing dates
 Save_as: sector.html
 
 [TOC]

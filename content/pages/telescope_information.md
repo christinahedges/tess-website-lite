@@ -1,4 +1,4 @@
-Title: TESS Telescope Information TEST
+Title: TESS Telescope Information
 template: slide
 save_as: telescope_information.html
 

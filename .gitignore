@@ -3,3 +3,6 @@ output
 tasks.py
 .DS_Store
 content/proposals
+*.png
+*.gif
+tess_gifs_and_pngs/.ipynb_checkpoints/pretty-tess-plots-checkpoint.ipynb

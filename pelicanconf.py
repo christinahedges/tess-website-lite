@@ -1,6 +1,7 @@
 import datetime
 import os
 from datetime import date, timedelta
+from datetime import datetime as dt
 import pandas as pd
 
 AUTHOR = 'TESS GI'
@@ -16,12 +17,22 @@ FULLURL = "https://heasarc.gsfc.nasa.gov/docs/tess"
 #Get the latest stats for the planet counter. Note the planet and paper counts are generated with a python script to be added in a future commit (consider them static at the moment)
 stats = pd.read_csv('htmlcontent/statistics/data/planet_counter_stats.csv', index_col=0)
 
+#Get the sectors and orbits by date. 
+today_split = dt.strptime(str(date.today()), "%Y-%m-%d")
+today_date_decimal = today_split.year + (today_split.timetuple().tm_yday - 1) / 365.2425
+
+current_working_directory = os.getcwd()
+print(current_working_directory)
+
+# import scripts.make-approved-programs#TESS_button_func
+#from scripts.TESS_button_func import main_func as main_func
+#sector_today, orbit_today = main_func(today_date_decimal)
+
+
 PLANETCOUNT = stats['planetcount'].values[0]
 PAPERCOUNT = stats['papercount'].values[0]
 
 SCIENCE_DAYS = (date.today() - date.fromisoformat('2018-07-18')).days #days since start of TESS science operations
-
-
 
 SITENAME = "TESS"
 HIDE_SITENAME = False

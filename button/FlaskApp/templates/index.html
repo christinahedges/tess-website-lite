@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+
+    </head>
+
+    <body>
+        <form class = "grid" action = "/result" method = "POST">
+            <center>
+                {% if name %}
+                <h3 style = "color: blue;"> Hello {{name}}, How are you?
+
+                </h3>
+
+                {% endif %}
+
+            </center>
+
+            <label for = "Name"> Enter your name : </label>
+            <input type = "text" name = "name" id = "name">
+            <input type = "Submit" class = "file_submit">
+
+            
+
+
+        </form>
+
+
+    </body>
+
+
+</html>
